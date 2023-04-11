@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400;500;700&display=swap');
+body{
+    font-family: 'Edu NSW ACT Foundation', cursive;
+}
+h2{
+    color: white;
+    font-size: 50px;
+    font-family:'Edu NSW ACT Foundation', cursive;
+    text-transform: uppercase;
+}
+h4{
+    color: rgb(224, 78, 173);
+    font-size: 20px;
+    font-family:'Edu NSW ACT Foundation', cursive;
+}
+h3{
+    color:rgb(52, 49, 49);
+    font-size: large;
+    font-family:'Edu NSW ACT Foundation', cursive;
+}
+h1{
+    color: black;
+    font-size: small;
+    font-family:'Edu NSW ACT Foundation', cursive;
+}
+a[href*='#'] {
+    color: blue;
+    font-weight: bold;
+  }
+/* Para las clases se usa .nombreclase y en el elemento se pone class="nombreclase otra clase"SE PUEDE USAR + DE1 */
+/* para los atributos se usa #atributo y en los elementos id="atributo"ES UNICO */
+/* SE PUEDE USAR EN 1 ELEMNTO CLASE Y ATRIBUTOS AL TIEMPO OSEA.. class="idh id" id="" Y NO HAY PROBLEMA */
+/* EN ORDEN DE PRIORIDAD 1 ID 2 CLASE 3 H5 SELECTOR EJMEMPLO */
+/* h1.special SE PUEDE SER MAS CAMBIOS ESPECIFICOS ESTE AFECTA LOS DE TIPO H1 CON LA CLASE SPECIAL */
+/*para seleccionar varios se separa por una coma y dentro de las {} se escribe lo que van a compartir */
+/* opacity atributo texto visibilidad  !important es para sobreponer el atributo */
+/* padding: 6px 11px 4px 9px; derecha abajo izq arriba si son 3 arriba izqder abajo*/
+#caja12:hover{
+    background-color:rgba(255, 255,255,0.1);
+    border-radius: 5px;
+    width: 50%;
+    height: 50%;
+    
+   }
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+  
+    body {
+        font-family: 'Edu NSW ACT Foundation', cursive;
+        margin: 2%;
+        justify-content: center;
+        overflow: hidden;
+    }
+    .box-wrapper{
+    height: 95vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    }
+   
+
+    #caja1{
+        padding: 10px; 
+        border: solid 1px black;
+        text-align: row;
+        background-color: rgb(88, 207, 158);
+        display: flex;
+        
+    }
+    #caja3{
+        padding: 10px; 
+        border: solid 1px black;
+        text-align: row;
+        background-color: bisque;
+        display: flex;
+        flex-grow: 6;
+        
+    }
+    #caja4{
+        padding: 10px; 
+        border: solid 1px black;
+        background-color: rgb(240, 126, 84);        
+    }
+    #caja11{
+        margin: 10px ;
+        flex-grow: 1;
+        border-color: black;
+        text-align: left;
+        
+    }
+    #caja12 {
+
+        margin: 10px ;
+        flex-grow: 1;
+        border-color: black;
+        
+        
+    }
+    #cajaimg {
+        margin: 10px ;
+        flex-grow: 1;
+        border-color: black;
+    }
+
+    #caja2{
+        padding: 10px; 
+        background-color: black;
+        text-align: row;
+        display: flex;
+
+    }
+    #caja31{
+        flex-grow: 2;
+        border: solid 1px black;
+    }
+    #caja32{
+        flex-grow: 4;
+        border: solid 1px black;
+    }
+    .fondito{
+        background-color:white;
+        border: solid 1px black ;
+    }

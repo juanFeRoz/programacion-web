@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/estilos.css">    
+<style>
+    * {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+
+		body {
+			margin: 2%;
+			justify-content: center;
+			overflow: hidden;
+		}
+    .box-wrapper{
+        height: 95vh;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+
+    }
+    
+    #caja1{
+    padding: 10px; 
+    border: solid 1px green;
+    flex-direction: row;
+    display: flex;
+
+    }
+    #caja11{
+        margin: 10px ;
+        flex-grow: 1;
+        border-color: black;
+        background-color: rgb(142, 228, 214);
+        
+    }
+    #caja12{
+        margin: 10px;
+        flex-grow: 1;
+        border-color: black;
+        background-color:rgb(217, 162, 197);
+        
+    }
+    
+    #caja2 {
+    padding: 10px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    border: solid 1px rgb(214, 143, 117);
+    }
+
+    #caja21{
+
+        flex-grow: 1;
+        border-color: black;
+        background-color:lightgoldenrodyellow;
+        flex-direction: column;
+        padding: 5px;
+        flex-grow: 1;
+        display: flex;
+        text-align: center;
+    
+        
+    }
+    #caja121{
+        display: flex;
+        background-color: rgb(164, 228, 164);
+        padding: 10px;
+        border: solid 1px black;
+        margin: 8px;
+        flex-grow: 1;
+        text-align: center;
+    }
+    #caja122{
+        display: flex;
+        background-color: rgb(121, 142, 187);
+        padding: 10px;
+        border: solid 1px black;
+        margin: 8px;
+        flex-grow: 1;
+        text-align: center;
+    }
+
+    #caja22{
+        flex-grow: 1;
+        border-color:  blueviolet;
+        border: 1px;
+        background-color: lightgray;
+        border: solid 1px black;
+        text-align: center;
+    }
+    
+</style>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pag</title>
+    
+</head>
+
+
+<body>
+    <nav id=""arriba>
+        <a href="#">HTML</a> |
+        <a href="#">CSS</a> |
+        <a href="#">JavaScript</a> |
+        <a href="#">Python</a>
+    </nav>
+
+    <div class="box-wrapper">
+        <div id="caja1">
+          <div id="caja11">
+            <a href="#">HTML</a> |
+            <a href="#">CSS</a> |
+            <a href="#">JavaScript</a> |
+            <a href="#">Python</a>
+          </div>
+
+          <div id="caja12">
+            <a href="#">HTML</a> |
+            <a href="#">CSS</a> |
+            <a href="#">JavaScript</a> |
+            <a href="#">Python</a>
+          </div>
+      
+        </div>
+        <div id="caja2">
+            <div id="caja21">
+                <div id="caja121">Texto1</div>
+                <div id="caja122">Texto2</div>
+            </div>
+            <div id="caja22">
+                
+            </div>
+        
+        </div>
+          
+    </div>        
+    
+</body>
+</html>
